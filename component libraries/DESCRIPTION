@@ -1,0 +1,2 @@
+A collection of libraries for parts used in the RASMv2 electrical system.
+The library named 'other' is for anything that isn't a passive, discrete semiconductor, or integrated circuit component.  It holds things like connectors, fuses, and relays.

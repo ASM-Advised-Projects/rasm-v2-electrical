@@ -1,0 +1,5 @@
+# ignore all backup files
+**/*.s#*
+**/*.b#*
+**/*.l#*
+
