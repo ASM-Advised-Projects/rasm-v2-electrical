@@ -1,0 +1,47 @@
+Power Management Schematic
+1) Compile a folder of datasheets for all components.
+2) Ensure a name and value is given for each component.
+3) Verify the schematic by reviewing all datasheets.
+4) Build a library of devices for each component.
+5) Do an electronic rule check.
+
+Power Management Board
+1) Create a board-level block diagram with blocks organized based on function, electrical noise, and thermal management considerations. E.g., separate the high-current battery throughput components from all other components by segmenting the ground plane.
+2) Place the components on the board.
+3) Draw the traces and any needed vias.
+4) Do a design rule check.
+5) Get a review from Ross.
+6) Create a bill of materials.
+
+Signal Processing Schematic
+1) Change connector symbols to JST connections.
+2) Add a uC programming interface.
+3) Compile a folder of datasheets for all components.
+4) Ensure a name and value is given for each component.
+5) Verify the schematic by reviewing all datasheets.
+6) Build a library of devices for each component.
+7) Do an electronic rule check.
+
+Signal Processing Board
+  - Same as power management board.
+
+Motor Driving Schematic
+
+Motor Driving Board
+
+General Notes
+* use trace and via calculators for trace widths and via dimensions.
+* use density level 'A' for hole and pad sizes:
+	hole diameter = lead diameter + 0.25mm
+	pad diameter = max{ hole diameter + 0.7mm, hole diameter x 2 }
+* content listed in the bill of materials (optional fields are marked with *)
+	reference designator
+	type of part (crystal, inductor, etc.)
+	value (frequency, inductance, etc.)
+	quantity
+	manufacturer*
+	manufacturer part #
+	vendor*
+	vendor part #*
+	price per unit*
+
